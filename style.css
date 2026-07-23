@@ -23,6 +23,7 @@
     cursor: pointer;
     font-family: -apple-system;
     font-weight: 500;
+
 }
 
 .actions {
@@ -60,7 +61,7 @@
     font-size: 20px;
 }
 .but{
-    border-radius: 50px; 
+    border-radius: 10px; 
     padding: 10px; 
     width: 115px;
     color: rgb(112, 76, 41); 
@@ -69,7 +70,8 @@
 }
 
 .but:hover{
-    background-color: #e4d5b7;
+    background-color: rgba(95, 16, 16, 0);
+    color: white;
 }
 
 .bod {
@@ -80,8 +82,11 @@
 .subh {
     text-align: center;
     padding-right: 20px;
+    padding-bottom: 10px;
     color: #e4d5b7;
 }
+
+/* categories */
 
 .cat {
     padding-left: 60px;
@@ -97,8 +102,14 @@
 .imgmen{
     height: 320px;
     width: 235px;
-
+    border-radius: 30px;
+    mask-image: linear-gradient(
+        to bottom,
+        black 50%,
+        transparent
+    );
 }
+
 
 .p2{
     align-items: center;
@@ -107,10 +118,58 @@
 .imgwomen{
     height: 320px;
     width: 235px;
+    border-radius: 30px;
+    mask-image: linear-gradient(
+        to bottom,
+        black 50%,
+        transparent
+    );
 }
 
 .imguni {
     height: 320px;
     width: 235px;
+    border-radius: 30px;
+    mask-image: linear-gradient(
+        to bottom,
+        black 50%,
+        transparent
+    );
+}
+
+/* effects for categories */
+
+.imgwomen:hover{
+    mask-image: linear-gradient(
+        to bottom,
+        black 100%,
+        transparent
+    );
+    
+}
+
+.imgmen:hover{
+    mask-image: linear-gradient(
+        to bottom,
+        black 100%,
+        transparent
+    );
+}
+
+.imguni:hover{
+    mask-image: linear-gradient(
+        to bottom,
+        black 100%,
+        transparent
+    );
+}
+
+/* Types */
+
+.subh2{
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: #e4d5b7;
 }
 
